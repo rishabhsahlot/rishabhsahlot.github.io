@@ -1,6 +1,7 @@
 let projects = [
     {
         name : "MShare",
+        source : "https://github.com/rishabhsahlot/M-Share",
         collaborators: ["Kishan Singh Rathore","Adit Sadiwala"],
         collaborator_links : ["https://www.linkedin.com/in/kishan-singh-rathore-36791914a/","https://www.linkedin.com/in/adit-sadiwala-12a88915b/"],
         topic_tags: ["Frontend", "Backend", "Gmail authentication", "Slugs", "Website"],
@@ -9,6 +10,7 @@ let projects = [
     },
     {
         name : "Text2Image",
+        source : "https://github.com/rishabhsahlot/Text2Image",
         collaborators: ["Karthik Nair","Purvam Pujari"],
         collaborator_links : ["https://www.linkedin.com/in/karthik-nair-93223712a/","https://www.linkedin.com/in/purvampujari/"],
         topic_tags: ["Frontend", "Deep Learning", "Natural Language Processing", "Computer Vision", "Attention", "Generative Adversarial Networks", "Character RNN", "CNN"],
@@ -17,6 +19,7 @@ let projects = [
     },
     {
         name : "Hermes AI",
+        source : "https://github.com/aayushk14/BigRed2019",
         collaborators : ["Aayush Kumar","Samuel Rose","Arturo"],
         collaborator_links : ["https://www.linkedin.com/in/aayushkumar14/","",""],
         topic_tags: ["Frontend", "Deep Learning", "Natural Language Processing", "Computer Vision", "Chatbot","Disaster Mitigation","APIs", "Virtual Assistant", "Image Classification","Cloud","Database"],
@@ -25,6 +28,7 @@ let projects = [
     },
     {
         name : "AgeGAN",
+        source : "https://github.com/rishabhsahlot/AgeGAN",
         collaborators : ["Aishwarya Rao","Anuj Kulkarni","Shweta Vijay Wahane"],
         collaborator_links : ["https://www.linkedin.com/in/aishwarya-rao-003/","https://www.linkedin.com/in/anuj-kulkarni-0411/",""],
         topic_tags : ["Frontend", "Deep Learning",  "Natural Language Processing", "Computer Vision","Generative Adversarial Networks", "Conditional GANs", "DLIB Face Vectors"],
@@ -33,6 +37,7 @@ let projects = [
     },
     {
         name : "NYC Taxi Data Analysis",
+        source : "https://github.com/rishabhsahlot/TaxiDriverDataAnalysis",
         collaborators : ["Tejas Patel","Karanjit Singh"],
         collaborator_links : ["https://www.linkedin.com/in/tp231095/","https://www.linkedin.com/in/karanjit-singh-230708191/"],
         topic_tags : ["Big Data", "Analytics",  "Machine Learning"],
@@ -41,6 +46,7 @@ let projects = [
     },
     {
         name : "Image Query Language",
+        source : "https://github.com/rishabhsahlot/ImageQL",
         collaborators : [],
         collaborator_links : [],
         topic_tags : ["Computer Vision", "Scale Invariant Feature Transform", "Vector of Locally Aggregated Descriptor", "Ball Tree", "Database"],
@@ -48,7 +54,8 @@ let projects = [
         description : "Implemented a Content Based Image Retrieval (CBIR) System, using SIFT key-points and VLAD vectors."
     },
     {
-        name : "Cloud Security (DDOS) Model for Database as a Service",
+        name : "Cloud Security (DDOS) Middleware for Database as a Service",
+        source : "https://github.com/suhascv/CloudSecurity",
         collaborators : ["Suhas CV"],
         collaborator_links : ["https://www.linkedin.com/in/suhascv/"],
         topic_tags : ["Cloud", "Database", "Database Logs", "Security", "Distributed Denial of Service", "Middleware", "Privacy"],
@@ -57,14 +64,17 @@ let projects = [
     },
     {
         name : "Time-Aware Sparsity Tolerant QoS based Web-Service Recommendation",
+        source : "https://github.com/VishnuSaketh85/WebServiceRec",
         collaborators : ["Vishnu ByReddy", "Adya Shrivastava", "Pranjal Pandey"],
         collaborator_links : ["https://www.linkedin.com/in/vishnu-byreddy-602a221b9/","https://www.linkedin.com/in/adyashrivastava/","https://www.linkedin.com/in/pranjal1511/"],
+        youtube_link : "https://youtu.be/u0RXuSmnh60",
         topic_tags : ["Web Services", "Recommendation System", "Database"],
         tech_tags : ["Python", "Postgresql", "numpy"],
         description : "Did a python-based implementation from scratch of the same paper as the topic."
     },
     {
         name : "Agriculture Recommendation",
+        source : "https://github.com/rishabhsahlot/Agro-App",
         collaborators : [],
         collaborator_links : [],
         topic_tags : ["Frontend", "Backend", "Web Services", "APIs", "SOAP", "REST", "WSDL", "XML", "Cors"],
@@ -73,11 +83,21 @@ let projects = [
     },
     {
         name : "Web Service Preprocessed Querying",
+        source : "https://github.com/rishabhsahlot/DjangoMongoDBDashBoard",
         collaborators : [],
         collaborator_links : [],
         topic_tags : ["Frontend", "Backend", "Database","Web Services", "Pre-processing","Cors"],
         tech_tags : ["Django", "Djongo","MongoDB","Javascript", "React.js", "Node.js", "HTML", "Bootstrap", "Semantic-UI", "CSS"],
         description : "Provided a local client-server web UI with django server and javascript client for inserting processed, serialized data in MongoDB database and querying they on the server-side ports using the axios APIs on the client-side"
+    },
+    {
+        name : "Password Guessing using Contrastive Predictive Coding",
+        source : "https://github.com/rishabhsahlot/Password-Guessing-with-Contrastive-Predictive-Coding",
+        collaborators : [],
+        collaborator_links : [],
+        topic_tags : ["Deep Learning", "Representation Learning", "Contrastive Learning"],
+        tech_tags : ["Python", "Django","Pytorch"],
+        description : "Implemented and provided a novel method for password guessing from leaked passwords (Rock You) using Representation Learning i.e. Contrastive Predictive Coding."
     }
 ];
 

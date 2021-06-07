@@ -14,7 +14,11 @@ class MainComponent extends Component {
     
     render() { 
         return (
-            <DesignComponent/>
+            <DevelopComponent/>
+            // <div>
+            //     <img src={imgs[0].default}></img>
+            // </div>
+            // <DesignComponent/>
             // <div style={{backgroundColor:"#f5f5f5", height:"80%"}}> 
             // {/* "#242526"   #5d6770 */}
             //     {/* <h1>Hi Th</h1> */}
