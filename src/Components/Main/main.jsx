@@ -3,6 +3,7 @@ import AGILE_trans from "./Imgs/AGILE_trans.png";
 import PlanComponent from "../Plan/plan.jsx";
 import DesignComponent from "../Design/design.jsx";
 import DevelopComponent from "../Develop/develop.jsx";
+import ReleaseComponent from '../Release/release';
 import TestComponent from '../Test/test';
 
 class MainComponent extends Component {
@@ -16,6 +17,7 @@ class MainComponent extends Component {
     render() { 
         return (
             <TestComponent/>
+            // <ReleaseComponent/>
             // <DevelopComponent/>
             // <div>
             //     <img src={imgs[0].default}></img>

@@ -1,9 +1,9 @@
 function importAll(r) {
     return r.keys().map(r);
 }
-let jobImgs = {}
+let extraCurricularImgs = {}
 
-jobImgs["Mukesoft IT Consultants"] = importAll(require.context('./Mukesoft IT Consultants/', false, /\.(png|jpe?g|svg)$/));
-jobImgs["Edelweiss Financial Product Distribution"] = importAll(require.context('./Edelweiss Financial Product Distribution/', false, /\.(png|jpe?g|svg)$/));
+extraCurricularImgs["Competitive Coding"] = importAll(require.context('./Competitive Coding/', false, /\.(png|jpe?g|svg|jfif)$/));
+extraCurricularImgs["Hackathons"] = importAll(require.context('./Hackathons/', false, /\.(png|jpe?g|svg|jfif)$/));
 
-export default jobImgs
+export default extraCurricularImgs

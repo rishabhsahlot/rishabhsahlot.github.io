@@ -1,62 +1,42 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
-import Card from 'react-bootstrap/Card';
+import { Container } from 'react-bootstrap';
+import extraCurriculars from './extracurricular';
+import extraCurricularImgs from './Imgs/getImgs';
 import Carousel from 'react-bootstrap/Carousel';
-// import CardGroup from 'react-bootstrap/CardGroup';
-import CardDeck from 'react-bootstrap/CardDeck';
-import jobs from './job';
-import jobImgs from './Imgs/getImgs';
-
 class TestComponent extends Component {
     constructor(props) {
         super(props);
         this.state = {  }
     }
     render() { 
-        console.log(jobs);
+        console.log(extraCurricularImgs);
+        console.log(extraCurriculars);
         return (  
-            <Container>
-                <CardDeck>
-                    {
-                        jobs.map((e)=>{ return(
-                            <Card>
-                                {/* <Card.Img variant="top" src={}/> */}
-                                <Carousel fade interval={null}>
-                                    {
-                                        jobImgs[e.name].map((d)=>{
-                                            return (<Carousel.Item>
-                                                <img
-                                                className="d-block w-100 "
-                                                src={d.default}
-                                                alt="First slide"
-                                                align="center"
-                                                style={{padding: "2.5%"}}
-                                                />
-                                                <Carousel.Caption style={{position:"relative", marginTop:"2%", maxWidth:"70%", color:"black"}}>
-                                                
-                                                </Carousel.Caption>
-                                            </Carousel.Item>)
-                                        }) }
-                                </Carousel>
-                                <Card.Body>
-                                <Card.Title><a href = {e.companyLink}>{e.name}</a></Card.Title>
-                                <Card.Text>
-                                    Supervisor : <a href={e.supervisorlink}> {e.supervisor}</a><br/>
-                                    Description : {e.description}
-                                </Card.Text>
-                                </Card.Body>
-                                <Card.Footer>
-                                    <small className="text-muted">{e.topic_tags.join(" \u2022 ")}</small>
-                                </Card.Footer>
-                                <Card.Footer>
-                                    <small className="text-muted">{e.tech_tags.join(" \u2022 ")}</small>  
-                                </Card.Footer>
-                            </Card>)        
-                        })
-                    }
-                </CardDeck>
-            </Container>
-        );
+        <Container>
+            <Carousel>
+                {
+                    extraCurriculars.map((e)=>{
+                        return (<Carousel.Item>
+                            <img
+                            className="d-block w-100 "
+                            src={extraCurricularImgs[e.name][0].default}
+                            alt="First slide"
+                            align="center"
+                            style={{padding: "2.5%", opacity:"0.30", background: "rgba(255,0,0,0.9)"}}
+                            />
+                            <Carousel.Caption>
+                                <h3 style={{color:'Black'}}>{e.description}</h3>
+                                <h5>
+                                    <ul style={{color:'Black'}}>
+                                        {e.keynotes.map((d)=>{return (<li>{d}</li>)})}
+                                    </ul>
+                                </h5>
+
+                            </Carousel.Caption>
+                        </Carousel.Item>)
+                }) }
+            </Carousel>
+        </Container>);
     }
 }
  
