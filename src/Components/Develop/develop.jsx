@@ -21,8 +21,8 @@ class DevelopComponent extends Component {
         // let nextIndicator = <span className="carousel-control-next-icon" style={{color:"black"}}/>;
         return (
             <Container style={{width:"60%", position:"absolute", display: "flex"}}>
-                <Card style={{minWidth:"70%", background:"yellow"}}>
-                    <Carousel fade interval={null}>
+                <Card style={{minWidth:"70%", background:"#c7553b"}}>
+                    <Carousel fade interval={null} style={{background:"White"}}>
                         {
                             projectImgs[this.state.project.name].map((e)=>{
                                 return (<Carousel.Item>
@@ -65,8 +65,8 @@ class DevelopComponent extends Component {
                                 </Card.Text>
                             </Card>
                         </CardDeck>
-                        <Card.Header>Description</Card.Header>
-                        <Card.Text>{this.state.project.description}</Card.Text>
+                        <Card.Header style={{color:"white"}}>Description</Card.Header>
+                        <Card.Text style={{color:"white"}}>{this.state.project.description}</Card.Text>
                     </Card.Body>
                     <Card.Footer style={{display:'flex'}}>    
                         <Button href={this.state.project.source}>
