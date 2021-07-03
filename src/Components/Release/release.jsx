@@ -24,16 +24,14 @@ class TestComponent extends Component {
                             jobs.map((e)=>{ return(
                                 <Card>
                                     {/* <Card.Img variant="top" src={}/> */}
-                                    <Carousel>
+                                    <Carousel style={{display:"flex",alignItems:"center",width:"100%"}}>
                                         {
                                             jobImgs[e.name].map((d)=>{
                                                 return (<Carousel.Item>
                                                     <img
-                                                    className="d-block w-100 "
                                                     src={d.default}
                                                     alt="First slide"
-                                                    align="center"
-                                                    style={{padding: "2.5%"}}
+                                                    style={{width:"auto",height:"20em", position: "relative",margin:"auto",display: "block"}}
                                                     />
                                                 </Carousel.Item>)
                                             }) }
