@@ -15,7 +15,7 @@ class FeedbackComponent extends Component {
     render() { 
         return ( 
             <Container style={{padding:"2em"}}>
-                <Container><h1 style={{padding:"3rem",textAlign:"center",fontSize:"4rem"}}>The 'Feedback' Stage</h1></Container>
+                <Row><h1 style={{padding:"3rem",textAlign:"center",fontSize:"4rem"}}>The 'Feedback' Stage</h1></Row>
                 <Container>
                     <Form action="https://formspree.io/f/xqkwldqz" method="POST" onSubmit={()=>this.setState({messageSent:true})}> {/*style={{textAlign:"center"}} */}
                         {this.state.messageSent?<div>Message has been sent</div>:<div></div>}
