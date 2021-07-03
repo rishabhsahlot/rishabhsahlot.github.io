@@ -36,7 +36,7 @@ let languages = [
         proficiency:85
     },
     {
-        framework : "CSS",
+        language : "CSS",
         proficiency : 85
     },    
     {
@@ -156,11 +156,6 @@ frameworks = frameworks.reduce((g,item)=>reducer(g,item,"framework"),{});
 tools = tools.reduce((g,item)=>reducer(g,item,"tool"),{});
 libraries = libraries.reduce((g,item)=>reducer(g,item,"library"),{});
 
-
-// console.log(languages);
-// console.log(frameworks);
-// console.log(tools);
-// console.log(libraries);
 
 let profs = {
     languages:languages, frameworks:frameworks, tools:tools, libraries:libraries

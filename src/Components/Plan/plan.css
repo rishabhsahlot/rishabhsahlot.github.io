@@ -1,0 +1,9 @@
+.profile-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  background-position: 50% 50%;
+  min-height: 0px;
+  padding-top: 335px;
+  padding-bottom: 335px;
+}
