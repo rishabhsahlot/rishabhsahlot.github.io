@@ -10,7 +10,7 @@ class PlanComponent extends Component {
             <div style={{backgroundColor:"#ffd6c2",alignItems:"center",width:"100%",paddingBottom:"2em"}}>
                 <Container>
                     <Row style={{alignItems:"center",width:"100%"}}>
-                        <div style={{alignItems:"center"}}>  {/*style={{position: "absolute",top:"2%",left: "50%", transform: "translateX(-50%)"}}>*/}
+                        <div style={{alignItems:"center"}}>
                             <h1 style={{padding:"0 3rem 0 3rem",textAlign:"center",alignSelf:"center", fontSize:"4rem"}}>The 'Plan' Phase</h1>
                             <h4 className="mb-2 text-muted" style={{padding:"0 10rem 1rem 10rem",textAlign:"center"}}>The 'Me' Project required myself to evaluate my past, taken into consideration the present and decide on a solution 
                             for my future.</h4>
