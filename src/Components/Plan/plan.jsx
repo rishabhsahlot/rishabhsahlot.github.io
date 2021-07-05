@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import resume from './ResumeJune22.pdf';
 class PlanComponent extends Component {
     state = {  }
     render() { 
@@ -53,8 +54,10 @@ class PlanComponent extends Component {
                                         state-of-the-art solutions to solve any software problem that may be posed to me. 
                                     </p>
                                 </Card.Text>
-                                <Card.Link href="#">Resume</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
+                                <Card.Link class="btn btn-warning pull-right" href={resume} target = "_blank">
+                                    <i class="fa fa-file-text"></i>
+                                    Resume
+                                </Card.Link>
                             </Card.Body>
                         </Card>
                         </Col>
