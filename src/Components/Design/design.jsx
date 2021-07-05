@@ -6,7 +6,8 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
+import ListGroup from 'react-bootstrap/ListGroup';
+import courseData from './courses'
 class DesignComponent extends Component {
     constructor(props){
         super(props);
@@ -17,9 +18,15 @@ class DesignComponent extends Component {
     render() { 
         return (
             <Container style={{paddingBottom:"2rem"}}>
-                <Row><h1 style={{padding:"3rem",textAlign:"center",fontSize:"4rem"}}>The 'Design' Stage</h1> </Row>
-                <Row style={{padding:"-1rem",alignContent:"center"}}>
+                <Row>
+                    <div style={{alignItems:"center"}}>
+                        <h1 style={{padding:"0 6rem 0 6rem",textAlign:"center",alignSelf:"center", fontSize:"4rem"}}>The 'Design' Phase</h1>
+                        <h4 className="mb-2 text-muted" style={{padding:"0 10rem 1rem 10rem",textAlign:"center"}}>To design solving the 'Career' project I needed to build up skills & learn new Concepts</h4>
+                    </div>
+                </Row>
+                <Row style={{padding:"-1rem",alignContent:"center",fontsize:"2rem"}}>
                     <Col>
+                        <h1>Technologies & their Proficiency</h1>
                         <Nav justify variant="tabs" defaultActiveKey={this.state.showProf} onSelect={(e)=>this.setState({showProf:e})}>
                             <Nav.Item>
                                 <Nav.Link href="/" eventKey="languages">Languages</Nav.Link>
@@ -35,17 +42,39 @@ class DesignComponent extends Component {
                             </Nav.Item>
                         </Nav>
                         <SkillsComponent skillList={profs[this.state.showProf]}/>
+                        <div style={{paddingTop:"3rem"}}>
+                            <Card.Title style={{fontSize:"2.5rem"}}>Self-studied Courses</Card.Title>
+                            <ListGroup variant="flush">
+                                {
+                                    courseData['otherCourses'].map((course)=>{
+                                        return (
+                                            <ListGroup.Item>
+                                                <a href={course.link}>{course.name}</a> 
+                                            </ListGroup.Item>
+                                        )
+                                    })
+                                }
+                            </ListGroup>
+                        </div>
                     </Col>
                     <Col>
-                        <Card style={{ width: '36rem'}}>
+                        <Card style={{ width: '100%',fontSize:"1.5rem"}}>
                             <Card.Body>
-                                <Card.Title style={{fontSize:"2.5rem"}}>How I 'designed' myself</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted" style={{fontSize:"1rem"}}>Skills & Courses</Card.Subtitle>
-                                <Card.Text style={{fontSize:"1.5rem"}}>
-                                Just Like a 
+                                <Card.Title style={{fontSize:"2.5rem"}}>Courses & Concepts</Card.Title>
+                                <Card.Text style={{fontSize:"1rem"}}>
+                                    Courses that I have taken:-
+                                    <ListGroup variant='flush'>
+                                        {
+                                            courseData['courses'].map((course)=>{
+                                                return (
+                                                    <ListGroup.Item>
+                                                        <a href={course.link}>{course.name},    {course.sem}</a> 
+                                                    </ListGroup.Item>
+                                                )
+                                            })
+                                        }
+                                    </ListGroup>
                                 </Card.Text>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
                             </Card.Body>
                         </Card>
                     </Col>

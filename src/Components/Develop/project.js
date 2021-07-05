@@ -67,7 +67,7 @@ let projects = [
         source : "https://github.com/VishnuSaketh85/WebServiceRec",
         collaborators : ["Vishnu ByReddy", "Adya Shrivastava", "Pranjal Pandey"],
         collaborator_links : ["https://www.linkedin.com/in/vishnu-byreddy-602a221b9/","https://www.linkedin.com/in/adyashrivastava/","https://www.linkedin.com/in/pranjal1511/"],
-        youtube_link : "https://youtu.be/u0RXuSmnh60",
+        youtube_link : "https://youtu.be/7e3a9iZJ9UU",
         topic_tags : ["Web Services", "Recommendation System", "Database"],
         tech_tags : ["Python", "Postgresql", "numpy"],
         description : "Did a python-based implementation from scratch of the same paper as the topic."

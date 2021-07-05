@@ -13,16 +13,16 @@ class PlanComponent extends Component {
                     <Row style={{alignItems:"center",width:"100%"}}>
                         <div style={{alignItems:"center"}}>
                             <h1 style={{padding:"0 3rem 0 3rem",textAlign:"center",alignSelf:"center", fontSize:"4rem"}}>The 'Plan' Phase</h1>
-                            <h4 className="mb-2 text-muted" style={{padding:"0 10rem 1rem 10rem",textAlign:"center"}}>The 'Me' Project required myself to evaluate my past, taken into consideration the present and decide on a solution 
+                            <h4 className="mb-2 text-muted" style={{padding:"0 10rem 1rem 10rem",textAlign:"center"}}>The 'Career' Project required myself to evaluate my past, taken into consideration the present and decide on a solution 
                             for my future.</h4>
                         </div>
                     </Row>
-                    <Row style={{alignItems:"center",width:"100%"}}>
+                    <Row style={{alignItems:"center",width:"100%",fontSize:"1.5rem"}}>
                         <Col style={{alignItems:"center"}}>
                         <Card>
                             <Card.Body>
-                                <Card.Title style={{textAlign:"center"}}>About Me</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted" style={{textAlign:"center"}}>My Past,Present & Future</Card.Subtitle>
+                                <Card.Title style={{textAlign:"center",fontSize:"2rem"}}>About Me</Card.Title>
+                                <Card.Subtitle className="mb-2 text-muted" style={{textAlign:"center",fontSize:"2rem"}}>My Past,Present & Future</Card.Subtitle>
                                 <Card.Text>
                                     <p>
                                             Hi, my name is Rishabh Manish Sahlot. I am currently pursuing Masters in Computer Science at Rochester Institute of Technology. I enjoy solving 

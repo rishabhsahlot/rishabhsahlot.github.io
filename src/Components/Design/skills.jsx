@@ -10,11 +10,9 @@ class SkillsComponents extends Component {
     }
     render() {
         let a = Object.keys(this.props.skillList);
-        console.log(a);
         let b = a.map(key=>{ 
             return (<ProgressBar now={{key}} label={`${{key}}%`} />)
         });
-        console.log(b); 
         return (
             <div align="right" style={{paddingLeft:"5%",paddingRight:"5%"}}>
                 {

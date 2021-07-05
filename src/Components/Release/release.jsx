@@ -16,13 +16,23 @@ class TestComponent extends Component {
         this.state = {  }
     }
     render() { 
-        console.log(jobImgs);
         return (  
             <div style={{backgroundColor:"#598a8e", padding:"0em 6em 2em 6em"}}>
-                <Row><h1 style={{padding:"3rem",textAlign:"center",fontSize:"4rem"}}>The 'Release' Stage</h1></Row>
+                <Row>
+                    <div style={{alignItems:"center"}}>
+                        <h1 style={{padding:"0 3rem 0 3rem",textAlign:"center",alignSelf:"center", fontSize:"4rem"}}>The 'Release' Phase</h1>
+                        <h4 style={{padding:"0 10rem 1rem 10rem",textAlign:"center",color:"#ddd"}}>The 'Career' Project required myself to evaluate my past, taken into consideration the present and decide on a solution 
+                        for my future.</h4>
+                    </div>
+                </Row>
+                <Row>
+                    <div style={{width:"100%",alignItems:"center"}}>
+                        <h1 style={{textAlign:"center"}}>Work Domain</h1>
+                    </div>
+                </Row>
                 <Row>
                     <Col style={{width:"20%"}}></Col>
-                    <Col style={{width:"20%",height:"16em"}}>
+                    <Col style={{width:"20%",height:"16em",borderRight:"2px solid black"}}>
                         <img src={jobImgs['Edelweiss Financial Product Distribution'][0].default} alt="First slide" style={{width:"100%",height:"auto",maxHeight:"16em", margin:"auto",display: "block"}}/>
                     </Col>
                     <Col style={{width:"20%",height:"16em"}}>
@@ -30,11 +40,16 @@ class TestComponent extends Component {
                     </Col>
                     <Col style={{width:"20%"}}></Col>
                 </Row>
+                <Row>
+                    <div style={{width:"100%",alignItems:"center"}}>
+                        <h1 style={{textAlign:"center"}}>Company & Logo</h1>
+                    </div>
+                </Row>
                 <Row style={{paddingBottom:"2em"}}>
                     <Col style={{width:"20%",height:"28em"}}>
                         <img src={jobImgs['Edelweiss Financial Product Distribution'][1].default} alt="First slide" style={{width:"100%",height:"auto",maxHeight:"28em", margin:"auto",display: "block"}}/>
                     </Col>
-                    <Col style={{width:"20%",height:"28em"}}>
+                    <Col style={{width:"20%",height:"28em",borderRight:"2px solid black"}}>
                         <div class="flip-card">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
@@ -88,8 +103,13 @@ class TestComponent extends Component {
                     </Col>
                 </Row>
                 <Row>
+                    <div style={{width:"100%",alignItems:"center"}}>
+                        <h1 style={{textAlign:"center"}}>Technological Tools</h1>
+                    </div>
+                </Row>
+                <Row>
                     <Col style={{width:"20%"}}></Col>
-                    <Col style={{width:"20%",height:"16em"}}>
+                    <Col style={{width:"20%",height:"16em",borderRight:"2px solid black"}}>
                         <img src={jobImgs['Edelweiss Financial Product Distribution'][3].default} alt="First slide" style={{width:"100%",height:"auto",maxHeight:"16em", margin:"auto",display: "block"}}/>
                     </Col>
                     <Col style={{width:"20%",height:"16em"}}>

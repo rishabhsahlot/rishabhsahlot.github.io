@@ -23,7 +23,12 @@ class DevelopComponent extends Component {
         console.log(projects);
         return (
             <div style={{padding:"0em 6em 2em 6em",backgroundColor:"#ce786b"}}>
-                <Row><h1 style={{padding:"3rem",textAlign:"center",fontSize:"4rem"}}>The 'Develop' Stage</h1> </Row>
+                <Row>
+                    <div style={{alignItems:"center"}}>
+                        <h1 style={{padding:"0 6rem 0 6rem",textAlign:"center",alignSelf:"center", fontSize:"4rem"}}>The 'Develop' Phase</h1>
+                        <h4 style={{padding:"0 10rem 1rem 10rem",textAlign:"center",color:"#ddd"}}>In the develop phase we implement the 'Career' project in the form of academic and other personal projects</h4>
+                    </div>
+                </Row>
                 <Row style={{width:"100%", display: "flex"}}>
                     <CardColumns style={{columnCount:"3"}}>
                         {
@@ -72,7 +77,21 @@ class DevelopComponent extends Component {
                                             :
                                             <div></div>
                                         }
-                                        <Card.Title style={{textAlign:"center",height:"2em"}} onMouseOver={(event)=>this.setState({[p.name]:true})} onMouseOut={(event)=>this.setState({[p.name]:false})}>{p.name}</Card.Title>
+                                        <Card.Title style={{textAlign:"center",height:"2em"}} onMouseOver={(event)=>this.setState({[p.name]:true})} onMouseOut={(event)=>this.setState({[p.name]:false})}>
+                                            {p.name}
+                                            &nbsp;
+                                            <a href={p.source}><i class="bi bi-github"></i></a>
+                                            {
+                                                (p.youtube_link)?
+                                                    <span>
+                                                        &nbsp; 
+                                                        <a href={p.youtube_link}><i class="bi bi-youtube" style={{fill:"red"}}></i></a>
+                                                    </span>
+                                                    :
+                                                    <p/>
+                                                    
+                                            }
+                                        </Card.Title>
                                     </Card>
                                 )
                             })

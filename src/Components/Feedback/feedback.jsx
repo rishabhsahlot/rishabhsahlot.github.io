@@ -15,7 +15,12 @@ class FeedbackComponent extends Component {
     render() { 
         return ( 
             <Container style={{padding:"2em"}}>
-                <Row><h1 style={{padding:"3rem",textAlign:"center",fontSize:"4rem"}}>The 'Feedback' Stage</h1></Row>
+                <Row>
+                    <div style={{alignItems:"center"}}>
+                        <h1 style={{padding:"0 3rem 0 3rem",textAlign:"center",alignSelf:"center", fontSize:"4rem"}}>The 'Feedback' Phase</h1>
+                        <h4 className="mb-2 text-muted" style={{padding:"0 10rem 1rem 10rem",textAlign:"center"}}>Once the 'Career' Project has been shown on the profile website - one needs to prepare appropriate communication channels to get feedback.</h4>
+                    </div>
+                </Row>
                 <Container>
                     <Form action="https://formspree.io/f/xqkwldqz" method="POST" onSubmit={()=>this.setState({messageSent:true})}> {/*style={{textAlign:"center"}} */}
                         {this.state.messageSent?<div>Message has been sent</div>:<div></div>}

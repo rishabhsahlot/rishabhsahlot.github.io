@@ -13,11 +13,14 @@ class TestComponent extends Component {
         this.state = {  }
     }
     render() { 
-        console.log(extraCurricularImgs);
-        console.log(extraCurriculars);
         return (  
         <Container style={{paddingBottom:"2rem"}}>
-            <Row><h1 style={{padding:"3rem",textAlign:"center",fontSize:"4rem"}}>The 'Test' Stage</h1></Row>
+            <Row>
+                <div style={{alignItems:"center"}}>
+                    <h1 style={{padding:"0 3rem 0 3rem",textAlign:"center",alignSelf:"center", fontSize:"4rem"}}>The 'Test' Phase</h1>
+                    <h4 className="mb-2 text-muted" style={{padding:"0 10rem 1rem 10rem",textAlign:"center"}}>To test the 'Career' Project one needs to evaluate is against testcases/compete in competitions</h4>
+                </div>
+            </Row>
             <Row style={{witdh:"100%",paddingBottom:"3rem"}}>
                 <Col>
                     <Fade left>
@@ -28,8 +31,8 @@ class TestComponent extends Component {
                     <Fade right>
                         <div>
                             <h1>{extraCurriculars[0].name}</h1>
-                            <p>{extraCurriculars[0].description}</p>
-                            <ul style={{color:'Black'}}>
+                            <p style={{fontSize:"1.5rem"}}>{extraCurriculars[0].description}</p>
+                            <ul style={{color:'Black',fontSize:"1.5rem"}}>
                                 {extraCurriculars[0].keynotes.map((d)=>{return (<li>{d}</li>)})}
                             </ul>
                         </div>
@@ -41,8 +44,8 @@ class TestComponent extends Component {
                 <Col>
                     <Fade left>
                         <h1>{extraCurriculars[1].name}</h1>
-                        <p>{extraCurriculars[1].description}</p>
-                        <ul style={{color:'Black'}}>
+                        <p style={{fontSize:"1.5rem"}}>{extraCurriculars[1].description}</p>
+                        <ul style={{color:'Black',fontSize:"1.5rem"}}>
                             {extraCurriculars[1].keynotes.map((d)=>{return (<li>{d}</li>)})}
                         </ul>
                     </Fade>
