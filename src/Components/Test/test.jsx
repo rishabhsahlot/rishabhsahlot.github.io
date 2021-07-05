@@ -4,7 +4,8 @@ import extraCurriculars from './extracurricular';
 import extraCurricularImgs from './Imgs/getImgs';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Fade from 'react-reveal/Fade';
+import Reveal from 'react-reveal/Reveal';
+import Fade from 'react-reveal/Fade'
 
 class TestComponent extends Component {
     constructor(props) {
