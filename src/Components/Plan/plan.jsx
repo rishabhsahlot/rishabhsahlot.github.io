@@ -8,13 +8,13 @@ class PlanComponent extends Component {
     state = {  }
     render() { 
         return (          
-            <div style={{backgroundColor:"#ffd6c2",alignItems:"center",width:"100%",paddingBottom:"2em"}}>
+            <div style={{backgroundColor:"#d6cfc7",alignItems:"center",width:"100%",paddingBottom:"2em"}}>
                 <Container>
                     <Row style={{alignItems:"center",width:"100%"}}>
                         <div style={{alignItems:"center"}}>
                             <h1 style={{padding:"0 3rem 0 3rem",textAlign:"center",alignSelf:"center", fontSize:"4rem"}}>The 'Plan' Phase</h1>
-                            <h4 className="mb-2 text-muted" style={{padding:"0 10rem 1rem 10rem",textAlign:"center"}}>The 'Career' Project required myself to evaluate my past, taken into consideration the present and decide on a solution 
-                            for my future.</h4>
+                            <h4 style={{padding:"0 10rem 1rem 10rem",textAlign:"center"}}><b><i>"The 'Career' Project required myself to evaluate my past, taken into consideration the present and decide on a solution 
+                            for my future."</i></b></h4>
                         </div>
                     </Row>
                     <Row style={{alignItems:"center",width:"100%",fontSize:"1.5rem"}}>
@@ -40,11 +40,12 @@ class PlanComponent extends Component {
                                         led me to the realization that while learning new concepts feels very fulfilling - learning, working & improving in new Technologies is also similarly 
                                         fun if not more. And that is when I formulated my own concept of what being a Software Engineer is-
                                     </p>
-                                    <figure style={{margin: "0", background: "#eee",padding: "1em",borderRadius: "1em"}}>
+                                    <figure style={{margin: "0", background: "#eee",padding: "1em",borderRadius: "1em",textAlign:"center"}}>
                                         <blockquote>
-                                            A Software Engineer is a problem solver, who efficiently considers the different concepts & technologies to solve any software problem
+                                            <b><i>"A Software Engineer is a problem solver, who efficiently considers the different concepts & technologies available to solve any software problem
                                             posed to him/her, & work out a fast, resource-friendly solution that persists as unbreakable for a long foreseable
-                                            future. 
+                                            future."</i></b>
+
                                         </blockquote>
                                     </figure>
                                     <br/>

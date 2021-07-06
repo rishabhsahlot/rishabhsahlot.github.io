@@ -8,7 +8,6 @@ import ReleaseComponent from '../Release/release';
 import FeedbackComponent from '../Feedback/feedback';
 import './main.scss';
 import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
 
 class MainComponent extends Component {
     constructor(props){

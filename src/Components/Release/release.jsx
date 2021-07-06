@@ -13,12 +13,12 @@ class TestComponent extends Component {
     }
     render() { 
         return (  
-            <div style={{backgroundColor:"#598a8e", padding:"0em 6em 2em 6em"}}>
+            <div style={{backgroundColor:"#d6cfc7", padding:"0em 6em 2em 6em"}}>
                 <Row>
                     <div style={{alignItems:"center"}}>
                         <h1 style={{padding:"0 3rem 0 3rem",textAlign:"center",alignSelf:"center", fontSize:"4rem"}}>The 'Release' Phase</h1>
-                        <h4 style={{padding:"0 10rem 1rem 10rem",textAlign:"center",color:"#ddd"}}>The 'Career' Project required myself to evaluate my past, taken into consideration the present and decide on a solution 
-                        for my future.</h4>
+                        <h4 style={{padding:"0 10rem 1rem 10rem",textAlign:"center"}}><b><i>"The 'Career' Project required myself to evaluate my past, taken into consideration the present and decide on a solution 
+                        for my future."</i></b></h4>
                     </div>
                 </Row>
                 <Row>

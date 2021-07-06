@@ -17,7 +17,7 @@ class TestComponent extends Component {
             <Row>
                 <div style={{alignItems:"center"}}>
                     <h1 style={{padding:"0 3rem 0 3rem",textAlign:"center",alignSelf:"center", fontSize:"4rem"}}>The 'Test' Phase</h1>
-                    <h4 className="mb-2 text-muted" style={{padding:"0 10rem 1rem 10rem",textAlign:"center"}}>To test the 'Career' Project one needs to evaluate is against testcases/compete in competitions</h4>
+                    <h4 className="mb-2 text-muted" style={{padding:"0 10rem 1rem 10rem",textAlign:"center"}}><b><i>"To test the 'Career' Project one needs to evaluate is against testcases/compete in competitions"</i></b></h4>
                 </div>
             </Row>
             <Row style={{witdh:"100%",paddingBottom:"3rem"}}>

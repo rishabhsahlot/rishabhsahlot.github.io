@@ -18,11 +18,11 @@ class DevelopComponent extends Component {
     }
     render() {
         return (
-            <div style={{padding:"0em 6em 2em 6em",backgroundColor:"#ce786b"}}>
+            <div style={{padding:"0em 6em 2em 6em",backgroundColor:"#d6cfc7"}}>
                 <Row>
                     <div style={{alignItems:"center"}}>
                         <h1 style={{padding:"0 6rem 0 6rem",textAlign:"center",alignSelf:"center", fontSize:"4rem"}}>The 'Develop' Phase</h1>
-                        <h4 style={{padding:"0 10rem 1rem 10rem",textAlign:"center",color:"#ddd"}}>In the develop phase we implement the 'Career' project in the form of academic and other personal projects</h4>
+                        <h4 style={{padding:"0 10rem 1rem 10rem",textAlign:"center"}}><b><i>"In the develop phase we implement the 'Career' project in the form of academic and other personal projects."</i></b></h4>
                     </div>
                 </Row>
                 <Row style={{width:"100%", display: "flex"}}>

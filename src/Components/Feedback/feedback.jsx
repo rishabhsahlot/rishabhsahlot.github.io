@@ -18,7 +18,7 @@ class FeedbackComponent extends Component {
                 <Row>
                     <div style={{alignItems:"center"}}>
                         <h1 style={{padding:"0 3rem 0 3rem",textAlign:"center",alignSelf:"center", fontSize:"4rem"}}>The 'Feedback' Phase</h1>
-                        <h4 className="mb-2 text-muted" style={{padding:"0 10rem 1rem 10rem",textAlign:"center"}}>Once the 'Career' Project has been shown on the profile website - one needs to prepare appropriate communication channels to get feedback.</h4>
+                        <h4 className="mb-2 text-muted" style={{padding:"0 10rem 1rem 10rem",textAlign:"center"}}><b><i>"Once the 'Career' Project has been shown on the profile website - one needs to prepare appropriate communication channels to get feedback."</i></b></h4>
                     </div>
                 </Row>
                 <Container>

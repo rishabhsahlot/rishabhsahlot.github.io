@@ -21,7 +21,7 @@ class DesignComponent extends Component {
                 <Row>
                     <div style={{alignItems:"center"}}>
                         <h1 style={{padding:"0 6rem 0 6rem",textAlign:"center",alignSelf:"center", fontSize:"4rem"}}>The 'Design' Phase</h1>
-                        <h4 className="mb-2 text-muted" style={{padding:"0 10rem 1rem 10rem",textAlign:"center"}}>To design solving the 'Career' project I needed to build up skills & learn new Concepts</h4>
+                        <h4 className="mb-2 text-muted" style={{padding:"0 10rem 1rem 10rem",textAlign:"center"}}><b><i>"To design solving the 'Career' project I needed to build up skills & learn new Concepts"</i></b></h4>
                     </div>
                 </Row>
                 <Row style={{padding:"-1rem",alignContent:"center",fontsize:"2rem"}}>
