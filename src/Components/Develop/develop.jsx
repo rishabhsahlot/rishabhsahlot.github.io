@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-import Nav from 'react-bootstrap/Nav';
 import projects from './project';
 import projectImgs from './Imgs/getImgs';
 import Carousel from 'react-bootstrap/Carousel';
-import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardColumns from 'react-bootstrap/CardColumns';
 import ListGroup from 'react-bootstrap/ListGroup';
-import { Col } from 'react-bootstrap';
+import Col from 'react-bootstrap/Col';
 
 class DevelopComponent extends Component {
     constructor(props){
@@ -20,7 +17,6 @@ class DevelopComponent extends Component {
         });
     }
     render() {
-        console.log(projects);
         return (
             <div style={{padding:"0em 6em 2em 6em",backgroundColor:"#ce786b"}}>
                 <Row>

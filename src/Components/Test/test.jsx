@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { Container } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
 import extraCurriculars from './extracurricular';
 import extraCurricularImgs from './Imgs/getImgs';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Reveal from 'react-reveal/Reveal';
 import Fade from 'react-reveal/Fade'
 
 class TestComponent extends Component {
@@ -24,7 +23,7 @@ class TestComponent extends Component {
             <Row style={{witdh:"100%",paddingBottom:"3rem"}}>
                 <Col>
                     <Fade left>
-                        <img src={extraCurricularImgs['Competitive Coding'][0].default} style={{width:"85%",height:"auto",margin:"auto",display:"block",boxShadow:"0 10px 15px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)",transform: "matrix(1, 0, 0, 1, 0, 0)"}}/>
+                        <img src={extraCurricularImgs['Competitive Coding'][0].default} alt="Error" style={{width:"85%",height:"auto",margin:"auto",display:"block",boxShadow:"0 10px 15px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)",transform: "matrix(1, 0, 0, 1, 0, 0)"}}/>
                     </Fade>
                 </Col>
                 <Col>
@@ -52,7 +51,7 @@ class TestComponent extends Component {
                 </Col>
                 <Col>
                     <Fade right>
-                        <img src={extraCurricularImgs['Hackathons'][0].default} style={{width:"85%",height:"auto",margin:"auto",display:"block", boxShadow:"0 10px 15px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)"}}/>
+                        <img src={extraCurricularImgs['Hackathons'][0].default} alt="Error" style={{width:"85%",height:"auto",margin:"auto",display:"block", boxShadow:"0 10px 15px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)"}}/>
                     </Fade>
                 </Col>
             </Row>

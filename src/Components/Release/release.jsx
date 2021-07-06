@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
-import Carousel from 'react-bootstrap/Carousel';
-// import CardGroup from 'react-bootstrap/CardGroup';
-import CardColumns from 'react-bootstrap/CardColumns';
 import jobs from './job';
 import jobImgs from './Imgs/getImgs';
 import Row from 'react-bootstrap/Row';
