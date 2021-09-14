@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d08d7e3a.chunk.css",
-    "main.js": "/static/js/main.6999cd2f.chunk.js",
-    "main.js.map": "/static/js/main.6999cd2f.chunk.js.map",
+    "main.js": "/static/js/main.838667ed.chunk.js",
+    "main.js.map": "/static/js/main.838667ed.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.88c9a733.js",
     "runtime-main.js.map": "/static/js/runtime-main.88c9a733.js.map",
     "static/js/2.d81405f8.chunk.js": "/static/js/2.d81405f8.chunk.js",
@@ -36,6 +36,7 @@
     "static/media/Picture5.jpg": "/static/media/Picture5.3a41b5eb.jpg",
     "static/media/RedBeakBlueTail.png": "/static/media/RedBeakBlueTail.bec9f671.png",
     "static/media/RedChestWhiteFeathers.png": "/static/media/RedChestWhiteFeathers.ce7ebca4.png",
+    "static/media/ResumeG.98c014e2.pdf": "/static/media/ResumeG.98c014e2.pdf",
     "static/media/ResumeJune22.a92dea8f.pdf": "/static/media/ResumeJune22.a92dea8f.pdf",
     "static/media/WomanAge.jpg": "/static/media/WomanAge.f5b337a4.jpg",
     "static/media/Work.jpg": "/static/media/Work.ffe88573.jpg",
@@ -67,6 +68,6 @@
     "static/js/runtime-main.88c9a733.js",
     "static/js/2.d81405f8.chunk.js",
     "static/css/main.d08d7e3a.chunk.css",
-    "static/js/main.6999cd2f.chunk.js"
+    "static/js/main.838667ed.chunk.js"
   ]
 }
