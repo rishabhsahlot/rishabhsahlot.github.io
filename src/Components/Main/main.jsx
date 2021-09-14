@@ -45,10 +45,15 @@ class MainComponent extends Component {
 
                         </div> */}
                     </div>
-                    <div style={{position:"relative",height:"100%"}}>
+                    <div style={{position:"relative",height:"100%",paddingTop:"3em"}}>
                         {/* <div className="typewriter">
                             <h1> Checking, checking , 1....2.....3..</h1>
                         </div> */}
+                        <div>
+                            <h1 style={{fontSize:"6em"}}>Hey there, my name is Rishabh Manish Sahlot</h1><br/>
+                            <h1 style={{fontSize:"3em"}}>I have a hypothesis that working on myself to get successful in my career is similar to working in AGILE process for project completion</h1><br/>
+                            <h1 style={{fontSize:"3em"}}>Let me explain ....</h1> <br/><br/>
+                        </div>
                         <div id="plan">
                             <PlanComponent/>
                         </div>
